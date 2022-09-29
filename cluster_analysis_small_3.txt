@@ -1,0 +1,65 @@
+Loaded graph is not clusterable
+-----------------------------------------------------------------------------------------------
+In order for the graph to be clusterable, the following 1 branches need to be removed:
+4	8
+-----------------------------------------------------------------------------------------------
+Printing all clusters
+# Cluster #0, Nodes: [12, 1, 13, 4, 5, 8, 9, 0] Edges: 13
+9	13
+4	5
+12	13
+0	12
+1	5
+5	8
+8	9
+0	4
+0	1
+4	8
+4	9
+9	12
+5	9
+# Cluster #1, Nodes: [2, 14, 3, 6, 7, 10] Edges: 7
+2	7
+3	6
+2	3
+10	14
+6	10
+7	10
+2	6
+# Cluster #2, Nodes: [15, 11] Edges: 1
+11	15
+-----------------------------------------------------------------------------------------------
+Printing clusters which are coalitions
+# Coalition Cluster #0, Nodes: 6 Edges: 7
+2	7
+3	6
+2	3
+10	14
+6	10
+7	10
+2	6
+# Coalition Cluster #1, Nodes: 2 Edges: 1
+11	15
+-----------------------------------------------------------------------------------------------
+Printing clusters which are not coalitions.
+# Not Coalition Cluster #0, Nodes: 8 Edges: 13
+9	13
+4	5
+12	13
+0	12
+1	5
+5	8
+8	9
+0	4
+0	1
+4	8
+4	9
+9	12
+5	9
+-----------------------------------------------------------------------------------------------
+Printing the cluster network:
+# Nodes: 3 Edges: 2
+0	1
+1	2
+-----------------------------------------------------------------------------------------------
+Finished successfully.
